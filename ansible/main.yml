@@ -1,0 +1,8 @@
+
+- hosts: all
+  become: true
+  tasks:
+  roles:
+    - prometheus
+    - node_exporter
+    - grafana
