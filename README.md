@@ -12,6 +12,8 @@ To get started, follow these steps:
    export AWS_ACCESS_KEY_ID="your_access_key"
    export AWS_SECRET_ACCESS_KEY="your_secret_access_key"
 
+   ```
+
 
 3. **Create terraform.tfvars in terraform folder**
 
@@ -23,6 +25,7 @@ subnet2_cidr = "10.0.2.0/0"
 subnet3_cidr = "10.0.3.0/0"
 ip_on_launch = true
 instance_type = "t2.micro"
+
 ```
 4. **Change permission to setup.sh file**
    - chmod +x setup.sh
